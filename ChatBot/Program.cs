@@ -11,7 +11,7 @@ namespace ChatBot
             while(true)
             {
                 Console.WriteLine("Ask me a question: ");
-                question = Console.ReadLine();
+                question = Console.ReadLine().Trim();
                 switch(question)
                 {
                     case "Who are you?":
